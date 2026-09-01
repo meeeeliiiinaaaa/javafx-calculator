@@ -1,6 +1,6 @@
 # javafx-calculator
 
-A calculator built with **Java** and **JavaFX** as part of an Object-Oriented Programming coursework assignment. It goes beyond a basic calculator by offering four modes in one app — Standard, Scientific, Programmer, and Memory — plus calculation history and switchable color themes.
+A desktop calculator built with **Java** and **JavaFX** as part of an Object-Oriented Programming coursework project. CalPro goes beyond a basic calculator by offering four modes in one app — Standard, Scientific, Programmer, and Memory — plus calculation history and switchable color themes.
 
 ## Features
 
@@ -28,12 +28,12 @@ javafx-calculator/
 │   └── main/
 │       ├── java/
 │       │   ├── module-info.java
-│       │   └── com/example/javafx-calculator/
+│       │   └── com/example/calpro/
 │       │       ├── HelloApplication.java  # JavaFX entry point
 │       │       ├── HelloController.java   # UI controller / event handling
 │       │       └── Calculate.java         # Core calculation logic (unary & binary ops)
 │       └── resources/
-│           └── com/example/javafx-calculator/
+│           └── com/example/calpro/
 │               ├── hello-view.fxml        # Main calculator layout
 │               ├── history.fxml           # History window layout
 │               └── CalDesign.css          # Stylesheet
