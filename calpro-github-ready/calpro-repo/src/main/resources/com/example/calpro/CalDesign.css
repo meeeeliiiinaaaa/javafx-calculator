@@ -1,0 +1,97 @@
+.root{
+    -fx-background-color:#fff;
+
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box , rgba(0 , 0, 0, 0.5) , 8 , 0 , 0 ,0 );
+}
+.highlight{
+    -fx-background-radius: 15;
+    -fx-background-color:#e5e2e2;
+}
+.text{
+    -fx-background-color: Transparent;
+}
+.root2{
+    -fx-background-color: linear-gradient(to bottom right , #24276c, #e5e2e2);
+}
+.sidebar{
+    -fx-background-color: #e5e2e2
+}
+.btn{
+    -fx-background-color:transparent;
+    -fx-cursor: hand;
+    -fx-border-color: #24276c;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 5;
+    -fx-text-fill: #24276c;
+}
+.btn:hover{
+    -fx-background-color:#24276c;
+    -fx-text-fill: #fff;
+    -fx-border-width: 0;
+    -fx-background-radius: 5;
+
+}
+.btnpane{
+    -fx-background-color: #2f3180;
+    -fx-background-radius: 15;
+}
+.btnnum{
+    -fx-font-family:  "Arial Narrow";
+    -fx-font-size: 12;
+    -fx-font-weight:  bold;
+
+}
+.numbers{
+    -fx-background-color: #9e9ee3;
+
+}
+.deletebtn{
+    -fx-background-color: #812121;
+
+}
+.historyPage {
+    -fx-background-color: linear-gradient(to bottom right, #ccb34a, #e5e2e2);
+}
+.binbtn{
+    -fx-background-color: #398c5e;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+.binbtn:hover{
+    -fx-background-color: #30a781;
+}
+.octbtn{
+    -fx-background-color: #873a8e;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+.octbtn:hover{
+    -fx-background-color: #a432ae;
+}
+
+.hexbtn{
+    -fx-background-color: #9a3641;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+.hexbtn:hover{
+    -fx-background-color: #b12d3c;
+}
+.decbtn{
+    -fx-background-color: #3a6690;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+.decbtn:hover{
+    -fx-background-color: #3982c5;
+}
+.enter{
+    -fx-background-color: #e16431;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+.enter:hover{
+    -fx-background-color: #e36f45;
+}
