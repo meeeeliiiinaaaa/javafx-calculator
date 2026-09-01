@@ -1,4 +1,4 @@
-# CalPro
+# javafx-calculator
 
 A desktop calculator built with **Java** and **JavaFX** as part of an Object-Oriented Programming coursework project. CalPro goes beyond a basic calculator by offering four modes in one app — Standard, Scientific, Programmer, and Memory — plus calculation history and switchable color themes.
 
@@ -59,11 +59,3 @@ mvnw.cmd clean javafx:run
 ```
 
 This uses the `javafx-maven-plugin` configured in `pom.xml`, so you don't need to install JavaFX separately — Maven will pull it in.
-
-## Notes
-
-This project was built as coursework for an OOP module. It's a great example of applying classes and encapsulation (`Calculate` for logic, `HelloController` for UI) in a small but feature-rich desktop application, though some UI code (theme-switching, styling) is intentionally straightforward rather than fully abstracted, as is typical for early coursework projects.
-
-## License
-
-No license specified — add one (e.g. MIT) if you'd like others to be able to reuse this code.
